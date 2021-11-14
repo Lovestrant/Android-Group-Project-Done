@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Edit">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Be sure To edit the record below:"
+        android:textColor="#ff77" />
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/displayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="list" />
+    <TextView
+        android:id="@+id/displayTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Total" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Fill New details below:"
+        android:textColor="#ff77"
+         />
+
+    <EditText
+        android:id="@+id/DebtorName"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Debtor Name" />
+    <EditText
+        android:id="@+id/mylist"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="List of Items" />
+
+    <EditText
+        android:id="@+id/mytotal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="5dp"
+        android:hint="Total" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Now"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/toMain"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main" />
+
+</LinearLayout>
